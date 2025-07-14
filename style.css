@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+
+
+:root {
+    --primary-cyan: #0CC0DF;
+    --text-color: white;
+    --bg: #E9F4F9;
+    --button-text: linear-gradient(281.72deg, #00ACCA 0%, #00F97D 169.01%);
+}
+
+html {
+    font-size: 62.5%
+}
+
+
+body {
+    background-color: var(--bg);
+
+
+}
+
+.container {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    font-weight: 600;
+    font-style: Italic;
+    font-size: 16px;
+    color: var(--primary-cyan);
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+}
+
+header {
+    padding: 40px 0;
+    position: relative;
+}
+
+.header-right div {
+    width: 70px;
+    height: 40px;
+    border-radius: 36px 18px;
+    background-color: var(--text-color);
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-right {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.header-right img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.btn {
+
+    border-radius: 40px 20px;
+    padding: 12px 25px;
+    border: none;
+    font-weight: 600;
+    font-style: Italic;
+    font-size: 14px;
+    line-height: 100%;
+
+}
+
+.blue {
+    color: var(--text-color);
+    background-color: var(--primary-cyan);
+}
+
+.opening {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(280.3deg, #00ACCA 0%, #00F97D 107.3%);
+    padding: 10rem 8rem 0 9rem;
+    border-radius: 80px 40px;
+    font-size: 32px;
+    gap: 50px;
+    overflow: hidden;
+}
+
+.opening [alt="Two phones"] {
+    width: 479px;
+    position: relative;
+    top: 8px;
+    z-index: 3;
+}
+
+[alt="icon"] {
+    display: none;
+}
+
+[alt="Full phone"] {
+    display: none;
+}
+
+.opening h1 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 44px;
+    color: var(--text-color);
+    width: 100%;
+}
+
+h1 span {
+    font-style: Italic;
+    color: #A471D8;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.highlight {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.tez {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    bottom: 15px;
+}
+
+.violet {
+    width: 12px;
+    height: 3px;
+    border-radius: 24px 8px;
+    background: linear-gradient(89.79deg, #A471D8 0.18%, #FFFFFF 282.54%);
+}
+
+.second {
+    position: relative;
+    right: 3px;
+}
+
+.opening p {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    color: var(--text-color);
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.btn.white {
+    background-color: var(--text-color);
+    font-weight: 600;
+    font-style: Italic;
+    font-size: 12px;
+    color: var(--primary-cyan);
+}
+
+.opening .btn {
+    padding: 18px 30px;
+}
+
+.images {
+    position: relative;
+}
+
+.position img {
+    position: absolute;
+    z-index: 4
+}
+
+.position [alt="Shashlik"] {
+    top: 180px;
+    right: 410px;
+}
+
+[alt="Burger"] {
+    top: -30px;
+    right: 200px;
+}
+
+[alt="choynak"] {
+    top: 240px;
+    right: -20px;
+}
+
+[alt="doughnut"] {
+    top: -90px;
+    right: -80px;
+}
+
+.ornament {
+    position: relative;
+}
+
+.ornament img {
+    position: absolute;
+    width: 440px;
+    height: 440px;
+
+}
+
+.ornament img:first-child {
+    top: -30px;
+    right: 820px;
+
+}
+
+.ornament img:last-child {
+    left: -350px;
+    top: -100px;
+    transform: rotate(180deg);
+    z-index: 1
+}
+
+.brands img {
+    height: 50px;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    padding: 12rem;
+    align-items: center;
+}
+
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 56%;
+    }
+
+    .container {
+        max-width: 95%;
+    }
+
+    .opening.container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .position [alt="Shashlik"] {
+        top: 240px;
+        right: 400px;
+    }
+
+    [alt="Burger"] {
+        right: 190px;
+    }
+
+    [alt="choynak"] {
+        top: 240px;
+    }
+
+
+    .opening p {
+        font-size: 18px;
+    }
+
+    .violet {
+        position: relative;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-top: -40px;
+    }
+
+    .opening .btn {
+        font-size: 14px;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    header nav a {
+        font-size: 14px;
+    }
+
+    .opening [alt="Two phones"] {
+        position: relative;
+        top: 58px;
+    }
+
+    .brands img:first-child {
+        display: none;
+    }
+
+    .brands {
+        padding: 100px 20px;
+    }
+
+    .ornament img:first-child {
+        position: absolute;
+        right: 20px;
+        top: -440px;
+    }
+
+    .ornament img:last-child {
+        position: absolute;
+        left: 13px;
+        top: -780px;
+
+    }
+}
+
+
+@media (max-width:950px) {
+    header nav {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 40%;
+    }
+
+    .container {
+        max-width: 95%;
+    }
+
+    .opening.container {
+        flex-direction: column;
+        background: linear-gradient(313.25deg, #00ACCA 24.7%, #00F97D 100.89%);
+        padding: 30px 15px 0px;
+        align-items: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opening h1 {
+        font-size: 25px;
+        margin-top: -10px;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    h1 span {
+        position: relative;
+        bottom: 5px;
+    }
+
+    .violet {
+        position: absolute;
+        top: -5px;
+    }
+
+    .opening .btn {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
+    .opening p {
+        font-size: 18px;
+    }
+
+    .opening [alt="Two phones"] {
+        display: none;
+    }
+
+    .opening [alt="Full phone"] {
+        display: inline-block;
+        width: 330px;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .header-right svg {
+        display: flex;
+    }
+
+    [alt="icon"] {
+        display: inline-block;
+        width: 30px;
+
+    }
+
+    header {
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    .header-right .btn {
+        display: none;
+    }
+
+
+    .opening .position img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .position [alt="Shashlik"] {
+        top: 160px;
+        right: 270px;
+        z-index: 1;
+    }
+
+    [alt="Burger"] {
+        top: 60px;
+        right: 130px;
+        z-index: 5;
+    }
+
+    [alt="choynak"] {
+        top: 300px;
+        z-index: 5;
+
+    }
+
+    [alt="doughnut"] {
+        top: -20px;
+        right: 30px;
+    }
+
+    .violet {
+        position: relative;
+        top: 5px;
+    }
+
+    .ornament img:first-child {
+        position: absolute;
+        right: -20px;
+        top: -440px;
+    }
+
+    .content p {
+        text-align: center;
+    }
+
+    .ornament img:last-child {
+        position: absolute;
+        left: -120px;
+        top: -730px;
+
+    }
+
+    .brands img:last-child,
+    .brands img:nth-child(5) {
+        display: none;
+    }
+
+    .brands {
+        width: 100%;
+        margin-top: -70px;
+    }
+
+    .brands img {
+        height: 30px;
+    }
+
+    .brands img:nth-child(2) {
+        height: 50px
+    }
+
+    .brands img:nth-child(6) {
+        height: 50px
+    }
+
+
+
+
+
+
+}

@@ -254,6 +254,344 @@ h1 span {
     align-items: center;
 }
 
+h2 {
+    font-weight: 700;
+    font-style: Italic;
+    font-size: 40px;
+    color: var(--primary-cyan);
+}
+
+.tanlov {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tanlov p {
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #A471D8;
+    width: 1000px;
+    margin: 20px 0 40px;
+}
+
+.tanlov span {
+    font-weight: 700;
+}
+
+.tanlov div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.tanlov img {
+    width: 140px;
+}
+
+.download {
+    background-color: white;
+    border-radius: 80px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+h3 {
+    width: 538px;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+    color: var(--primary-cyan);
+}
+
+.text {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    color: #A471D8;
+    width: 692px;
+    margin: 50px 0;
+
+}
+
+.download button {
+    border-radius: 32px 16px;
+    border: 1px solid var(--primary-cyan);
+    display: flex;
+    gap: 10px;
+    background: #0CC0DF1A;
+    width: 240px;
+    height: 78px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    display: flex;
+    gap: 30px;
+}
+
+.download button p {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: -2%;
+    color: var(--primary-cyan);
+}
+
+.download button div {
+    display: flex;
+    flex-direction: column;
+    gap: -100px;
+}
+
+
+.overlay {
+    position: relative;
+}
+
+
+.overlay img {
+    position: absolute;
+}
+
+.one-phone {
+    background-color: white;
+    width: 9000px;
+
+}
+
+.one {
+    position: absolute;
+    width: 420px;
+    right: 40px;
+    top: 90px;
+}
+
+.two {
+    width: 170px;
+    right: 300px;
+    top: 300px;
+}
+
+[alt="Phone"] {
+    display: none;
+}
+
+.questions {
+    margin-top: 120px;
+}
+
+.questions h2 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.questions div {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    margin: 30px auto;
+
+
+}
+
+.questions div div {
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    margin: 0;
+}
+
+.questions div p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #706A75;
+    line-height: 24px;
+    letter-spacing: 0%;
+    width: 130%
+}
+
+.questions b {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #19082A;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+}
+
+.bar {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+
+.work h2 {
+    text-align: center;
+}
+
+.green {
+    width: 50%;
+    border-radius: 80px 40px;
+    background: linear-gradient(283.96deg, #00ACCA 0%, #00F97D 148.78%);
+    padding: 65px 45px;
+    position: relative;
+
+}
+
+.green h3 {
+    font-weight: 700;
+    font-style: Italic;
+    font-size: 40px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: white;
+
+}
+
+.green .white {
+    padding: 17px 42px;
+}
+
+.green p {
+    font-weight: 500;
+    font-style: Italic;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin: 24px 0;
+    color: white;
+    width: 80%;
+}
+
+.bar img {
+    position: absolute;
+    width: 133px;
+    left: 500px;
+    bottom: 30px;
+}
+
+.social-media h2 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.general {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.general button {
+    background-color: white;
+    border-radius: 40px 20px;
+    padding: 20px;
+    display: flex;
+    border: none;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+    width: 313px;
+}
+
+.general svg {
+    width: 80px;
+}
+
+.general b {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 4px;
+}
+
+.general p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #706A75;
+
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    border-radius: 80px 40px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+
+    color: #A471D8;
+}
+
+footer svg {
+    margin-bottom: 40px;
+}
+
+.contact {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    text-decoration: none;
+
+}
+
+.address {
+    margin-top: 40px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-decoration: none;
+    width: 692px;
+    margin-bottom: 40px;
+}
+
+footer div {
+    display: flex;
+    gap: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-decoration-style: solid;
+
+
+    text-decoration-skip-ink: auto;
+}
 
 @media (max-width: 1024px) {
     html {
@@ -335,6 +673,64 @@ h1 span {
         top: -780px;
 
     }
+
+    .tanlov p {
+        width: 90%;
+    }
+
+    .tanlov div {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .download {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download button {
+        width: 90%;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .overlay img {
+        position: absolute;
+
+    }
+
+    .one-phone {
+        background-color: white;
+        width: 600px;
+        margin-right: 30%;
+        display: none;
+
+    }
+
+    [alt="Phone"] {
+        display: flex;
+        width: 500px;
+        margin: 30px auto;
+    }
+
+    .bar {
+        flex-direction: column;
+    }
+
+    .green {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+
 }
 
 
@@ -499,9 +895,320 @@ h1 span {
         height: 50px
     }
 
+    .tanlov div {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .tanlov div img {
+        width: 120px;
+
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0%;
+    }
+
+    .tanlov p {
+        width: 90%;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 12px;
+        line-height: 1.3em;
+        letter-spacing: -1%;
+    }
+
+    .tanlov div {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        width: 95%;
+    }
+
+    .download {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .download button {
+        max-width: 90%;
+        justify-content: flex-start;
+        padding: 10px;
+        margin: 0 auto;
+
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: -1%;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        ;
+
+    }
 
 
 
+    .one-phone {
+        display: none;
+
+    }
+
+    [alt="Phone"] {
+        display: flex;
+        width: 393px;
+        margin: 30px auto;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .one-phone {
+        background-color: white;
+        width: 600px;
+        margin-right: 30%;
+        display: none;
+
+    }
+
+    [alt="Phone"] {
+        display: flex;
+        width: 300px;
+        margin: 30px auto;
+    }
+
+    .questions {
+        margin-top: 50px;
+    }
+
+    .questions h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .questions div {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+
+
+    }
+
+    .questions div div {
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        margin: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .questions div p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #706A75;
+
+    }
+
+    .questions b {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #19082A;
+    }
+
+    hr {
+        width: 70%;
+        margin: auto;
+    }
+
+    .bar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+
+    }
+
+
+    .work h2 {
+        text-align: center;
+    }
+
+    .green {
+        width: 100%;
+        border-radius: 40px 20px;
+        background: linear-gradient(283.96deg, #00ACCA 0%, #00F97D 148.78%);
+        padding: 30px;
+        position: relative;
+
+    }
+
+    .green h3 {
+        font-weight: 700;
+        font-style: Italic;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: white;
+
+    }
+
+    .green .white {
+        padding: 17px 42px;
+    }
+
+    .green p {
+        font-weight: 500;
+        font-style: Italic;
+        font-size: 12px;
+
+        line-height: 16px;
+        letter-spacing: 0%;
+        color: white;
+        width: 80%;
+    }
+
+    .bar img {
+        position: absolute;
+        width: 90px;
+        top: 81px;
+        left: 300px;
+    }
+
+    .social-media h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .general {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .general button {
+        background-color: white;
+        border-radius: 40px 20px;
+        padding: 20px;
+        display: flex;
+        border: none;
+        align-items: center;
+        text-align: left;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .general svg {
+        width: 60px;
+    }
+
+    .general b {
+
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+
+        line-height: 24px;
+        letter-spacing: 0%;
+    }
+
+    .general p {
+
+        font-weight: 400;
+
+        font-size: 14px;
+
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #706A75;
+
+    }
+
+    footer {
+        text-align: center;
+        background-color: white;
+        border-radius: 30px 15px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer a {
+
+        color: #A471D8;
+    }
+
+    footer svg {
+        margin-bottom: 24px;
+    }
+
+    .contact {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0%;
+
+    }
+
+    .address {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -1%;
+        text-align: center;
+        margin-bottom: 24px;
+        width: 80%
+    }
+
+    footer div {
+        display: flex;
+        gap: 30px;
+
+        font-weight: 400;
+
+        font-size: 12px;
+
+        line-height: 32px;
+        letter-spacing: -1%;
+
+    }
 
 
 }
